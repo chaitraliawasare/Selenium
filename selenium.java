@@ -31,7 +31,7 @@ public class selenium {
      driver.findElement(By.xpath("/html/body/div/a")).click();
      //Add Employee
      Thread.sleep(3000);
-     driver.findElement(By.xpath("//*[@id=\"firstName\"]")).sendKeys(Phoebe");
+     driver.findElement(By.xpath("//*[@id=\"firstName\"]")).sendKeys("Phoebe");
      driver.findElement(By.xpath("//*[@id=\"lastName\"]")).sendKeys("Buffay");
      driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("Phoebe@tcs.com");
      Thread.sleep(3000);
