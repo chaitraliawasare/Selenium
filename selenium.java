@@ -15,7 +15,7 @@ public class selenium {
      driver.findElement(By.xpath("/html/body/div/div/div/div/span/a")).click();
      driver.findElement(By.id("firstName")).sendKeys("Tom");
      driver.findElement(By.id("lastName")).sendKeys("Williams");
-     driver.findElement(By.id("email")).sendKeys(Tom@tcs.com");
+     driver.findElement(By.id("email")).sendKeys("Tom@tcs.com");
      driver.findElement(By.id("password")).sendKeys("1234");
      //Register Button
      Thread.sleep(3000);
