@@ -13,6 +13,7 @@ public class selenium {
      WebDriver driver=new ChromeDriver();  
      //driver.manage().timeouts().pageLoadTimeout(10, null);
      //driver.navigate().to("http://172.168.1.150:8080/login");
+     Thread(2000);
      driver.navigate().to("http://35.154.221.78:8000/accounts/login/");
      Thread.sleep(3000);
      driver.findElement(By.id("id_username")).sendKeys("user1");
