@@ -1,4 +1,5 @@
 
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;  
@@ -14,6 +15,9 @@ public class selenium {
      //driver.navigate().to("http://172.168.1.150:8080/login");
      driver.navigate().to("http://35.154.221.78:8000/accounts/login/");
      Thread.sleep(3000);
+     driver.findElement(By.id("id_username")).sendKeys("user1");
+     driver.findElement(By.id("id_password")).sendKeys("user1");
+     driver.findElement(By.xpath("/html/body/div/div/div[2]/form/button")).click();
 //     driver.findElement(By.xpath("/html/body/div/div/div/div/span/a")).click();
 //     driver.findElement(By.id("firstName")).sendKeys("Kiran123");
 //     driver.findElement(By.id("lastName")).sendKeys("Kumar123");
