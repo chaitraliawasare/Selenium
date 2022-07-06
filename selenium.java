@@ -16,8 +16,11 @@ public class selenium {
      driver.navigate().to("http://35.154.221.78:8000/accounts/login/");
      Thread.sleep(3000);
      driver.findElement(By.id("id_username")).sendKeys("user1");
+     Thread.sleep(1000);
      driver.findElement(By.id("id_password")).sendKeys("user1");
+     Thread.sleep(1000);
      driver.findElement(By.xpath("/html/body/div/div/div[2]/form/button")).click();
+     Thread.sleep(500);
 //     driver.findElement(By.xpath("/html/body/div/div/div/div/span/a")).click();
 //     driver.findElement(By.id("firstName")).sendKeys("Kiran123");
 //     driver.findElement(By.id("lastName")).sendKeys("Kumar123");
